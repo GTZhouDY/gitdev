@@ -14,7 +14,7 @@ public class IndexController {
     public JSONObject testPage() {
 		JSONObject jsonObj = new JSONObject();
 		jsonObj.put("success", true);
-		jsonObj.put("msg", "成功-test");
+		jsonObj.put("msg", "成功");
         return jsonObj;
 	}
 }
